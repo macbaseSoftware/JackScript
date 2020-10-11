@@ -1,5 +1,25 @@
 # JackScript
 A string and vector library for C++
 
-##Version 0.1.2
-##Release Version = 1.0
+## Current Version 
+version 0.1.2
+
+## First Release Version
+version 1.0
+
+## Usage
+```c++
+#import <string>
+#import <vector>
+#import <JackScript.h>
+
+main(){
+  // declarations
+  std::vector<Char> MyArray;
+  std::string MyString = "hello world";
+  
+  // call function
+  MyArray = JS::stringToVector(MyString);
+  
+}
+```

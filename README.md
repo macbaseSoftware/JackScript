@@ -7,11 +7,34 @@ version 0.1.0-alpha
 ## First Release Version
 version 1.0
 
-## Usage
+## String library Usage
 ```c++
 #import <string>
 #import <vector>
-#import <JackScript.h>
+#import <jackstring.h> // include Jackscript
+
+main(){
+  	//declarations
+  	string str = "samantha";
+	string str2 = "ant";
+
+	//implementation
+	int a = js::length(str);
+	cout << a << endl; // returns 8
+	
+	int b = js::includes(str2, str);
+	cout << b << endl; // returns 3
+
+	return 0;
+}
+```
+
+
+## Vector library Usage
+```c++
+#import <string>
+#import <vector>
+#import <jackvector.h> // include Jackscript
 
 main(){
   // declarations

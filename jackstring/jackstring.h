@@ -1,7 +1,5 @@
 #ifndef JACKSTRING_H
 #define JACKSTRING_H
-#pragma once
-
 #include <iostream>
 #include <vector>
 #include <string>

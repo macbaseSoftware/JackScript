@@ -30,4 +30,10 @@ namespace js{
 		}
 		return -1;
 	}
+
+	std::string charToString(char charector){
+		std::string str;
+		str.push_back(charector);
+		return str;
+	}
 }

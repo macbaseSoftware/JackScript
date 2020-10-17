@@ -2,7 +2,7 @@
 A string and vector library for C++
 
 ## Current Version 
-version 0.1.0-alpha
+version 0.1.1-alpha
 
 ## First Release Version
 version 1.0

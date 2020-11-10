@@ -49,7 +49,6 @@ main(){
   std::string MyString = "hello world";
   
   // call function
-  MyArray = js::stringToVector(MyString); // returns a vector
-  
+  MyArray = js::stringToVector(MyString); // returns a vector  
 }
 ```

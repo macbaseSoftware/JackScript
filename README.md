@@ -1,5 +1,5 @@
 # JackScript
-A string and vector library for C++
+A linear algebraic library. Includes Trigonometric, matrices, inner-product-spaces, general-vector-spaces, euclidean-vector-spaces, vectors in 2 and 3 spaces and linear transformations.  
 
 ## Current Version 
 version 0.1.1-alpha

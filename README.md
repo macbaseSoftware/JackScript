@@ -2,7 +2,7 @@
 A string and vector library for C++
 
 ## Current Version 
-version 0.1.0-alpha
+version 0.1.1-alpha
 
 ## First Release Version
 version 1.0
@@ -24,6 +24,13 @@ main(){
 	
 	int b = js::includes(str2, str);
 	cout << b << endl; // returns 3
+
+	/////////////////////////////
+	//convert a char to a string
+	char myChar = 'A';
+	string str3 ;   
+	str3 = js::charToString(myChar); 
+	cout << str3 << endl; // returns "A"
 
 	return 0;
 }

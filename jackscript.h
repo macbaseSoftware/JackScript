@@ -5,8 +5,9 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include "jackstring/jackstring.h"
 
+#include "jackstring/jackstring.h"
+#include "jackmath/jackmath.h"
 
 
 #endif
